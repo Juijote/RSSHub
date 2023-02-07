@@ -1907,6 +1907,42 @@
       }
     ]
   },
+  "52bdys.com": {
+    "_name": "哔嘀影视",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/multimedia.html#bi-di-ying-shi",
+        "source": [
+          "/s/:caty"
+        ]
+      }
+    ]
+  },
+  "bde4.icu": {
+    "_name": "哔嘀影视",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/multimedia.html#bi-di-ying-shi",
+        "source": [
+          "/s/:caty"
+        ]
+      }
+    ]
+  },
+  "bdys01.com": {
+    "_name": "哔嘀影视",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/multimedia.html#bi-di-ying-shi",
+        "source": [
+          "/s/:caty"
+        ]
+      }
+    ]
+  },
   "behance.net": {
     "_name": "Behance",
     "www": [
@@ -2380,6 +2416,28 @@
       }
     ]
   },
+  "bjsk.org.cn": {
+    "_name": "北京社科网",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/government.html#bei-jing-she-ke-wang",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
+  "bjwxdxh.org.cn": {
+    "_name": "北京无线电协会",
+    "www": [
+      {
+        "title": "最新资讯",
+        "docs": "https://docs.rsshub.app/government.html#bei-jing-wu-xian-dian-xie-hui",
+        "source": "/news/class/"
+      }
+    ]
+  },
   "bjx.com.cn": {
     "_name": "北极星电力网",
     "guangfu": [
@@ -2779,6 +2837,18 @@
           "/"
         ],
         "target": "/cankaoxiaoxi/news/world_news"
+      }
+    ]
+  },
+  "cast.org.cn": {
+    "_name": "中国科学技术协会",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/government.html#zhong-guo-ke-xue-ji-shu-xie-hui",
+        "source": [
+          "/col/:column/index.html"
+        ]
       }
     ]
   },
@@ -10824,6 +10894,20 @@
       }
     ]
   },
+  "kimlaw.or.kr": {
+    "_name": "韓國海事法學會",
+    ".": [
+      {
+        "title": "学术论文",
+        "docs": "https://docs.rsshub.app/study.html#han-guo-hai-shi-fa-xue-hui",
+        "source": [
+          "/67",
+          "/"
+        ],
+        "target": "/kimlaw/thesis"
+      }
+    ]
+  },
   "knowmedia.tw": {
     "_name": "识媒体",
     ".": [
@@ -11842,6 +11926,33 @@
       }
     ]
   },
+  "mclaren.com": {
+    "_name": "Mclaren Racing",
+    "www": [
+      {
+        "title": "Mclaren Racing",
+        "docs": "https://docs.rsshub.app/new-media.html#mai-kai-lun-sai-che",
+        "source": "/racing/articles/",
+        "target": "/mclaren/en/all"
+      }
+    ],
+    "cn": [
+      {
+        "title": "迈凯伦赛车",
+        "docs": "https://docs.rsshub.app/new-media.html#mai-kai-lun-sai-che",
+        "source": "/racing/articles/",
+        "target": "/mclaren/zh/all"
+      }
+    ],
+    "es": [
+      {
+        "title": "Mclaren Racing",
+        "docs": "https://docs.rsshub.app/new-media.html#mai-kai-lun-sai-che",
+        "source": "/racing/articles/",
+        "target": "/mclaren/es/all"
+      }
+    ]
+  },
   "mdpi.com": {
     "_name": "MDPI",
     "www": [
@@ -12102,19 +12213,6 @@
           "/"
         ],
         "target": "/mox/:category?"
-      }
-    ]
-  },
-  "52bdys.com": {
-    "_name": "哔嘀影视",
-    ".": [
-      {
-        "title": "首页",
-        "docs": "https://docs.rsshub.app/multimedia.html#bi-di-ying-shi",
-        "source": [
-          "/"
-        ],
-        "target": "/mp4er/:type?/:caty?/:area?/:year?/:order?"
       }
     ]
   },
@@ -16677,38 +16775,9 @@
     "_name": "证券时报网",
     ".": [
       {
-        "title": "要闻",
-        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-yao-wen",
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-lan-mu",
         "source": [
-          "/xw/:id",
-          "/gd",
-          "/"
-        ]
-      },
-      {
-        "title": "快讯",
-        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-kuai-xun",
-        "source": [
-          "/kuaixun/:id",
-          "/kuaixun",
-          "/"
-        ]
-      },
-      {
-        "title": "股市",
-        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-gu-shi",
-        "source": [
-          "/stock/:id",
-          "/stock",
-          "/"
-        ]
-      },
-      {
-        "title": "数据",
-        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-shu-ju",
-        "source": [
-          "/data/:id",
-          "/data",
           "/"
         ]
       }
@@ -18737,19 +18806,6 @@
       {
         "title": "公众号（wechat-feeds 来源）",
         "docs": "https://docs.rsshub.app/new-media.html#wei-xin"
-      }
-    ]
-  },
-  "wemp.app": {
-    "_name": "微信",
-    ".": [
-      {
-        "title": "公众号（wemp.app 来源）",
-        "docs": "https://docs.rsshub.app/new-media.html#wei-xin",
-        "source": [
-          "/accounts/:id"
-        ],
-        "target": "/wechat/wemp/:id"
       }
     ]
   },

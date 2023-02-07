@@ -397,6 +397,9 @@
     "/bbcnewslabs/news": [
         "elxy"
     ],
+    "/bdys/:caty?/:type?/:area?/:year?/:order?": [
+        "nczitzk"
+    ],
     "/behance/:user/:type?": [
         "MisteryMonster"
     ],
@@ -569,6 +572,12 @@
     "/bjp/apod": [
         "HenryQW"
     ],
+    "/bjsk/:path?": [
+        "TonyRL"
+    ],
+    "/bjwxdxh/:type?": [
+        "Misaka13514"
+    ],
     "/bjx/gf/:type": [
         "Sxuet"
     ],
@@ -662,6 +671,9 @@
     ],
     "/cankaoxiaoxi/news/:category": [
         "yuxinliu-alex"
+    ],
+    "/cast/:column?": [
+        "TonyRL"
     ],
     "/cbirc/:category?": [
         "JkCheung"
@@ -2597,6 +2609,9 @@
     "/kemono/posts": [
         "nczitzk"
     ],
+    "/kimlaw/thesis": [
+        "TonyRL"
+    ],
     "/knowmedia/:category?": [
         "Fatpandac"
     ],
@@ -2804,6 +2819,9 @@
     "/mcachicago/exhibitions": [
         "chazeon"
     ],
+    "/mclaren/:lang/:category?": [
+        "Bubbu0129"
+    ],
     "/mdpi/:journal": [
         "Derekmini"
     ],
@@ -2858,9 +2876,6 @@
         "nczitzk"
     ],
     "/mox/:category?": [
-        "nczitzk"
-    ],
-    "/mp4er/:type?/:caty?/:area?/:year?/:order?": [
         "nczitzk"
     ],
     "/mpaypass/main/:type?": [
@@ -3961,15 +3976,6 @@
     "/startuplatte/:category?": [
         "nczitzk"
     ],
-    "/stcn/data/:id?": [
-        "nczitzk"
-    ],
-    "/stcn/kuaixun/:id?": [
-        "nczitzk"
-    ],
-    "/stcn/stock/:id?": [
-        "nczitzk"
-    ],
     "/stcn/:id?": [
         "nczitzk"
     ],
@@ -4546,9 +4552,6 @@
     ],
     "/wechat/uread/:userid": [
         "kt286"
-    ],
-    "/wechat/wemp/:id": [
-        "HenryQW"
     ],
     "/wechat/wxnmh/:id": [
         "laampui"
