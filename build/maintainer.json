@@ -1637,6 +1637,9 @@
     "/getitfree/:category?": [
         "nczitzk"
     ],
+    "/gettr/user/:id": [
+        "TonyRL"
+    ],
     "/gf-cn/news/:category?": [
         "nczitzk"
     ],
@@ -3514,6 +3517,15 @@
         "Rongronggg9",
         "devinmugen"
     ],
+    "/pikabu/community/:name": [
+        "TonyRL"
+    ],
+    "/pikabu/tag/:name": [
+        "TonyRL"
+    ],
+    "/pikabu/user/:name": [
+        "TonyRL"
+    ],
     "/pincong/category/:category?/:sort?": [
         "zphw"
     ],
@@ -3606,6 +3618,10 @@
     ],
     "/pmthinking/": [
         "nczitzk"
+    ],
+    "/pnas/:topicPath*": [
+        "emdoe",
+        "y9c"
     ],
     "/polkadot/blog": [
         "iceqing"
@@ -5880,7 +5896,6 @@
     "/kaggle/user/:user": [],
     "/elife/:tid": [],
     "/ieee/author/:aid/:sortType/:count?": [],
-    "/pnas/:topic?": [],
     "/cell/cell/:category": [],
     "/cell/cover": [],
     "/mcbbs/forum/:type": [],
