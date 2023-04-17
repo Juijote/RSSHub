@@ -1320,6 +1320,9 @@
     "/dlsite/campaign/:type/:free?": [
         "cssxsh"
     ],
+    "/dlsite/ci-en/:id/article": [
+        "nczitzk"
+    ],
     "/dlsite/new/:type": [
         "cssxsh"
     ],
@@ -1570,8 +1573,11 @@
     "/economist/:endpoint": [
         "ImSingee"
     ],
-    "/ecust-jxjy/ecust-jxjy/news": [
+    "/ecust/jxjy/news": [
         "jialinghui"
+    ],
+    "/ecust/yjs": [
+        "shengmaosu"
     ],
     "/ehentai/favorites/:favcat?/:order?/:page?/:routeParams?": [
         "yindaheng98",
@@ -3037,6 +3043,9 @@
     ],
     "/lativ/:id": [
         "Fatpandac"
+    ],
+    "/layer3/quests": [
+        "nczitzk"
     ],
     "/layoffs/": [
         "BrandNewLifeJackie26"
@@ -6565,7 +6574,6 @@
     "/cauele": [],
     "/moxingfans": [],
     "/chiphell/forum/:forumId?": [],
-    "/ecustyjs": [],
     "/tjuyjs": [],
     "/upcyjs": [],
     "/outyjs": [],
