@@ -410,6 +410,12 @@
     "/appstore/gofans": [
         "HenryQW"
     ],
+    "/aqara/community/:id?/:keyword?": [
+        "nczitzk"
+    ],
+    "/aqara/news": [
+        "nczitzk"
+    ],
     "/arcteryx/new-arrivals/:country/:gender": [
         "NavePnow"
     ],
