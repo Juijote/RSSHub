@@ -2461,6 +2461,9 @@
     "/hnrb/:id?": [
         "nczitzk"
     ],
+    "/hnu/careers": [
+        "ningyougan"
+    ],
     "/hongkong/dh/:language?": [
         "nczitzk"
     ],
@@ -3491,7 +3494,7 @@
     "/newzmz/:category?": [
         "nczitzk"
     ],
-    "/newzmz/view/:id?": [
+    "/newzmz/:id?": [
         "nczitzk"
     ],
     "/nextapple/realtime/:category?": [
