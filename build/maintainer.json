@@ -4104,6 +4104,9 @@
     "/pubmed/trending/:filters?": [
         "nczitzk"
     ],
+    "/pumc/mdadmission": [
+        "nczitzk"
+    ],
     "/putty/changes": [
         "nczitzk"
     ],
@@ -5096,6 +5099,9 @@
     ],
     "/twitter/trends/:woeid?": [
         "sakamossan"
+    ],
+    "/twitter/tweet/:id/status/:status/:original?": [
+        "LarchLiu"
     ],
     "/twitter/user/:id/:routeParams?": [
         "DIYgod",

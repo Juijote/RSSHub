@@ -9274,6 +9274,12 @@
         source:[ "/trending",
           "/" ],
         target:(params, url) => `/pubmed/trending/${new URL(url).searchParams.getAll('filter').join(',')}` } ] },
+  "pumc.edu.cn":{ _name:"北京协和医学院",
+    mdadmission:[ { title:"“4+4”试点班招生网通知公告",
+        docs:"https://docs.rsshub.app/university.html#bei-jing-xie-he-yi-xue-yuan",
+        source:[ "/mdweb/site",
+          "/" ],
+        target:"/pumc/mdadmission" } ] },
   "chiark.greenend.org.uk":{ _name:"PuTTY",
     www:[ { title:"Change Log",
         docs:"https://docs.rsshub.app/program-update.html#putty-change-log",
@@ -11425,6 +11431,14 @@
         target:(params) => {
                     if (params.uid !== 'home' && params.uid !== 'explore' && params.uid !== 'notifications' && params.uid !== 'messages' && params.uid !== 'explore' && params.uid !== 'search') {
                         return '/twitter/collection/:uid/:collectionId';
+                    }
+                } },
+      { title:"推文详情",
+        docs:"https://docs.rsshub.app/social-media.html#twitter",
+        source:"/:id/status/:status",
+        target:(params) => {
+                    if (params.id !== 'home' && params.id !== 'explore' && params.id !== 'notifications' && params.id !== 'messages' && params.id !== 'explore' && params.id !== 'search') {
+                        return '/twitter/tweet/:id/suatus/:status';
                     }
                 } } ] },
   "twreporter.org":{ _name:"報導者",
