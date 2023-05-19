@@ -1843,6 +1843,9 @@
     "/fx-markets/fx-markets/:channel": [
         "mikkkee"
     ],
+    "/fzmtr/announcements": [
+        "HankChow"
+    ],
     "/gameapps/": [
         "TonyRL"
     ],
@@ -6066,6 +6069,9 @@
         "5upernova-heng"
     ],
     "/zyshow/:region?/:id": [
+        "nczitzk"
+    ],
+    "/zyw/hot/:site?": [
         "nczitzk"
     ],
     "/1draw": [],

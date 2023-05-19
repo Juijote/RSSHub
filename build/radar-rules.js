@@ -3879,6 +3879,9 @@
         docs:"https://docs.rsshub.app/finance.html#fx-markets",
         source:"/regulation",
         target:"/fx-markets/regulation" } ] },
+  "fzmtr.com":{ _name:"福州地铁",
+    www:[ { title:"通知公告",
+        docs:"https://docs.rsshub.app/travel.html#fu-zhou-di-tie" } ] },
   "gameapps.hk":{ _name:"GameApps.hk 香港手机游戏网",
     ".":[ { title:"最新消息",
         docs:"https://docs.rsshub.app/game.html#gameapps-hk-xiang-gang-shou-ji-you-xi-wang",
@@ -13219,6 +13222,14 @@
                         .toString()
                         .split(/zyshow\.net/)
                         .pop()}` } ] },
+  "zyw.asia":{ _name:"zyw",
+    hot:[ { title:"今日热榜",
+        docs:"https://docs.rsshub.app/new-media.html#zyw-jin-ri-re-bang",
+        source:[ "/" ],
+        target:(params, url) => {
+                    const matches = new URL(url).href.match(/type=(\w+)/);
+                    return `/zyw/hot${matches ? `/${matches[1]}` : ''}`;
+                } } ] },
   "ximalaya.com":{ _name:"喜马拉雅",
     ".":[ { title:"专辑",
         docs:"https://docs.rsshub.app/multimedia.html#xi-ma-la-ya",
