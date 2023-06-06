@@ -1416,12 +1416,20 @@
     "_name": "AEON",
     "aeon": [
       {
-        "title": "Essays",
+        "title": "Types (Essays, Videos, or Audio)",
         "docs": "https://docs.rsshub.app/new-media.html##aeon",
         "source": [
-          "/"
+          "/:type"
         ],
-        "target": "/aeon/essays"
+        "target": "/aeon/:type"
+      },
+      {
+        "title": "Category",
+        "docs": "https://docs.rsshub.app/new-media.html##aeon",
+        "source": [
+          "/:category"
+        ],
+        "target": "/aeon/category/:category"
       }
     ]
   },
@@ -5638,6 +5646,12 @@
         "title": "最新信息公开",
         "docs": "https://docs.rsshub.app/university.html#dong-hua-da-xue"
       }
+    ],
+    "yjs": [
+      {
+        "title": "研究生信息",
+        "docs": "https://docs.rsshub.app/university.html#dong-hua-da-xue"
+      }
     ]
   },
   "diandong.com": {
@@ -6551,6 +6565,16 @@
   },
   "eastmoney.com": {
     "_name": "东方财富",
+    "data": [
+      {
+        "title": "研究报告",
+        "docs": "https://docs.rsshub.app/finance.html#dong-fang-cai-fu",
+        "source": [
+          "/report/:category"
+        ],
+        "target": "/eastmoney/report/:category"
+      }
+    ],
     "fundbarmob": [
       {
         "title": "天天基金用户动态",
@@ -16209,6 +16233,21 @@
           "/s/n46/diary/MEMBER"
         ],
         "target": "/nogizaka46/blog"
+      }
+    ]
+  },
+  "notateslaapp.com": {
+    "_name": "Not a Tesla App",
+    ".": [
+      {
+        "title": "特斯拉系统更新",
+        "docs": "https://docs.rsshub.app/program-update.html#not-a-tesla-app",
+        "source": [
+          "/software-updates/history",
+          "/software-updates",
+          "/"
+        ],
+        "target": "/notateslaapp/ota"
       }
     ]
   },
