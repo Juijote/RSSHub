@@ -5376,6 +5376,35 @@
       }
     ]
   },
+  "daily.dev": {
+    "_name": "Daily.dev",
+    ".": [
+      {
+        "title": "Most Discussed",
+        "docs": "https://docs.rsshub.app/en/social-media.html#daily.dev",
+        "source": [
+          "/discussed"
+        ],
+        "target": "/daily/discussed"
+      },
+      {
+        "title": "Most Upvoted",
+        "docs": "https://docs.rsshub.app/en/social-media.html#daily.dev",
+        "source": [
+          "/upvoted"
+        ],
+        "target": "/daily/upvoted"
+      },
+      {
+        "title": "Popular",
+        "docs": "https://docs.rsshub.app/en/social-media.html#daily.dev",
+        "source": [
+          "/popular"
+        ],
+        "target": "/daily"
+      }
+    ]
+  },
   "dapenti.com": {
     "_name": "喷嚏",
     ".": [
@@ -5420,6 +5449,19 @@
           "/:category/*"
         ],
         "target": "/dayanzai/:category"
+      }
+    ]
+  },
+  "dblp.org": {
+    "_name": "DBLP",
+    ".": [
+      {
+        "title": "关键字搜索",
+        "docs": "https://docs.rsshub.app/study.html#dblp",
+        "source": [
+          "/:field"
+        ],
+        "target": "/dblp/:field"
       }
     ]
   },
@@ -5972,6 +6014,20 @@
         "source": [
           "/player/*id"
         ]
+      }
+    ]
+  },
+  "dorohedoro.net": {
+    "_name": "Dorohedoro",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/game.html#dorohedoro",
+        "source": [
+          "/news",
+          "/"
+        ],
+        "target": "/dorohedoro/news"
       }
     ]
   },
