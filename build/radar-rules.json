@@ -899,6 +899,19 @@
       }
     ]
   },
+  "4ksj.com": {
+    "_name": "4k 世界",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/multimedia.html#4k-shi-jie-fen-lei",
+        "source": [
+          "/forum-2-1.html",
+          "/"
+        ]
+      }
+    ]
+  },
   "500px.com.cn": {
     "_name": "500px 摄影社区",
     ".": [
@@ -3934,15 +3947,12 @@
   },
   "91wllm.com": {
     "_name": "湖北高校就业网络联盟",
-    "ccnu": [
+    "wtu": [
       {
-        "title": "华中师范大学就业信息",
-        "docs": "https://docs.rsshub.app/university.html#hua-zhong-shi-fan-da-xue",
-        "source": [
-          "/news/index/tag/tzgg",
-          "/"
-        ],
-        "target": "/ccnu/career"
+        "title": "武汉纺织大学就业信息",
+        "docs": "https://docs.rsshub.app/university.html#wu-han-fang-zhi-da-xue",
+        "source": "/news/index/tag/:type",
+        "target": "/wtu/job/:type"
       }
     ]
   },
@@ -12958,6 +12968,16 @@
         ],
         "target": "/jin10"
       }
+    ],
+    "xnews": [
+      {
+        "title": "主题文章",
+        "docs": "https://docs.rsshub.app/finance.html#jin-shi-shu-ju",
+        "source": [
+          "/topic/:id"
+        ],
+        "target": "/jin10/topic/:id"
+      }
     ]
   },
   "jisilu.cn": {
@@ -15270,16 +15290,13 @@
     ]
   },
   "nationalgeographic.com": {
-    "_name": "国家地理",
-    ".": [
+    "_name": "National Geographic",
+    "www": [
       {
-        "title": "每日一图",
-        "docs": "https://docs.rsshub.app/picture.html#guo-jia-di-li",
-        "source": [
-          "/photo-of-the-day/*",
-          "/"
-        ],
-        "target": "/natgeo/dailyphoto"
+        "title": "Latest Stories",
+        "docs": "https://docs.rsshub.app/traditional-media.html#hua-shi-xin-wen",
+        "source": "/pages/topic/latest-stories",
+        "target": "/nationalgeographic/latest-stories"
       }
     ]
   },
@@ -15468,6 +15485,30 @@
           "/"
         ],
         "target": "/neatdownloadmanager/download/:os?"
+      }
+    ]
+  },
+  "nenu.edu.cn": {
+    "_name": "东北师范大学",
+    "sohac": [
+      {
+        "title": "历史文化学院",
+        "docs": "https://docs.rsshub.app/university.html#dong-bei-shi-fan-da-xue-li-shi-wen-hua-xue-yuan",
+        "source": [
+          "/index/xyxx.htm",
+          "/index/tzgg.htm",
+          "/"
+        ]
+      }
+    ],
+    "yjsy": [
+      {
+        "title": "研究生院",
+        "docs": "https://docs.rsshub.app/university.html#dong-bei-shi-fan-da-xue-yan-jiu-sheng-yuan",
+        "source": [
+          "/tzgg.htm",
+          "/"
+        ]
       }
     ]
   },
@@ -18232,6 +18273,19 @@
       }
     ]
   },
+  "rattibha.com": {
+    "_name": "رتبها - Rattibha",
+    ".": [
+      {
+        "title": "User Threads",
+        "docs": "https://docs.rsshub.app/en/social-media.html#rattibha",
+        "source": [
+          "/:user"
+        ],
+        "target": "/rattibha/user/:user"
+      }
+    ]
+  },
   "readhub.cn": {
     "_name": "Readhub",
     ".": [
@@ -18981,6 +19035,19 @@
         "docs": "https://docs.rsshub.app/university.html#shan-dong-ke-ji-da-xue-yan-jiu-sheng-zhao-sheng-wang",
         "source": [
           "/zhaosheng",
+          "/"
+        ]
+      }
+    ]
+  },
+  "sdzk.cn": {
+    "_name": "山东省教育招生考试院",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/study.html#shan-dong-sheng-jiao-yu-zhao-sheng-kao-shi-yuan-xin-wen",
+        "source": [
+          "/NewsList.aspx",
           "/"
         ]
       }
@@ -22860,6 +22927,14 @@
     "_name": "UNTAG",
     ".": [
       {
+        "title": "时间线",
+        "docs": "https://docs.rsshub.app/new-media.html#untag-shi-jian-xian",
+        "source": [
+          "/"
+        ],
+        "target": "/utgd/timeline"
+      },
+      {
         "title": "分类",
         "docs": "https://docs.rsshub.app/new-media.html#untag-fen-lei",
         "source": [
@@ -23709,6 +23784,15 @@
         "docs": "https://docs.rsshub.app/other.html#wu-chang-shou-yi-xue-yuan",
         "source": "/*",
         "target": "/wsyu/news/mtjj"
+      }
+    ]
+  },
+  "wtu.edu.cn": {
+    "_name": "武汉纺织大学",
+    "wtu": [
+      {
+        "title": "信息门户公告",
+        "docs": "https://docs.rsshub.app/university.html#wu-han-fang-zhi-da-xue"
       }
     ]
   },
@@ -24969,6 +25053,15 @@
     ".": [
       {
         "title": "文章",
+        "docs": "https://docs.rsshub.app/blog.html#zhu-bai",
+        "source": [
+          "/"
+        ]
+      }
+    ],
+    "analy": [
+      {
+        "title": "TOP 20",
         "docs": "https://docs.rsshub.app/blog.html#zhu-bai",
         "source": [
           "/"

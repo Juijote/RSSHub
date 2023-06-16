@@ -167,6 +167,9 @@
     "/423down/:category/:type": [
         "Fatpandac"
     ],
+    "/4ksj/forum/:id?": [
+        "nczitzk"
+    ],
     "/500px/tribe/set/:id": [
         "TonyRL"
     ],
@@ -3143,6 +3146,9 @@
     "/jin10/:important?": [
         "laampui"
     ],
+    "/jin10/topic/:id": [
+        "miles170"
+    ],
     "/jisilu/:category?/:sort?/:day?": [
         "nczitzk"
     ],
@@ -3579,6 +3585,9 @@
     "/natgeo/:cat/:type?": [
         "fengkx"
     ],
+    "/nationalgeographic/latest-stories": [
+        "miles170"
+    ],
     "/nature/cover": [
         "y9c"
     ],
@@ -3633,6 +3642,12 @@
     ],
     "/neea/:type?": [
         "SunShinenny"
+    ],
+    "/nenu/sohac/:path+": [
+        "nczitzk"
+    ],
+    "/nenu/yjsy/:path+": [
+        "nczitzk"
     ],
     "/neu/bmie/:type": [
         "tennousuathena"
@@ -4434,6 +4449,9 @@
     "/rarehistoricalphotos/": [
         "TonyRL"
     ],
+    "/rattibha/user/:user": [
+        "yshalsager"
+    ],
     "/reactnewsletter": [
         "meixger"
     ],
@@ -4627,6 +4645,9 @@
         "kxxt"
     ],
     "/sdust/yjsy/zhaosheng/:id?": [
+        "nczitzk"
+    ],
+    "/sdzk/:bcid?/:cid?": [
         "nczitzk"
     ],
     "/secnews/index": [
@@ -5488,10 +5509,13 @@
     "/usts/juch/:type?": [
         "Fatpandac"
     ],
-    "/utgd/:category?": [
+    "/utgd/timeline": [
         "nczitzk"
     ],
     "/utgd/topic/:topic?": [
+        "nczitzk"
+    ],
+    "/utgd/:category?": [
         "nczitzk"
     ],
     "/uw/gix/news/:category": [
@@ -5745,6 +5769,12 @@
     ],
     "/wsyu/news/:type?": [
         "Derekmini"
+    ],
+    "/wtu/:type": [
+        "loyio"
+    ],
+    "/wtu/job/:type": [
+        "ticks-tan"
     ],
     "/wxkol/show/:id": [
         "TonyRL"
@@ -6133,6 +6163,9 @@
     ],
     "/zhiy/posts/:author": [
         "TonyRL"
+    ],
+    "/zhubai/top20": [
+        "nczitzk"
     ],
     "/zhubai/:id": [
         "naixy28"
@@ -7239,7 +7272,6 @@
     "/growincity/news/:id?": [],
     "/thrillist/:tag?": [],
     "/dxy/vaccine/:province?/:city?/:location?": [],
-    "/wtu/:type": [],
     "/tingshen": [],
     "/gov/mohrss/sbjm/:category?": [],
     "/shinybbs/latest": [],
