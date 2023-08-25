@@ -1500,6 +1500,9 @@
     "/discourse/:configId/posts": [
         "dzx-dzx"
     ],
+    "/discourse/:configId/notification": [
+        "dzx-dzx"
+    ],
     "/disinfo/publications": [
         "nczitzk"
     ],
@@ -6314,6 +6317,9 @@
     ],
     "/youtube/community/:handle": [
         "TonyRL"
+    ],
+    "/youtube/live/:username/:embed?": [
+        "sussurr127"
     ],
     "/youtube/playlist/:id/:embed?": [
         "HenryQW"
