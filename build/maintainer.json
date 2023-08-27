@@ -776,6 +776,9 @@
     "/bilibili/vsearch/:kw/:order?/:disableEmbed?/:tid?": [
         "Symty"
     ],
+    "/bilibili/watchlater/:uid/:disableEmbed?": [
+        "JimenezLi"
+    ],
     "/bilibili/weekly/:disableEmbed?": [
         "ttttmr"
     ],
@@ -1000,6 +1003,9 @@
     ],
     "/cau/yjs": [
         "shengmaosu"
+    ],
+    "/caus/:category?": [
+        "nczitzk"
     ],
     "/cbaigui/:path+": [
         "nczitzk"
@@ -7648,7 +7654,6 @@
     "/bibgame/:category?/:type?": [],
     "/macau-bolsas/:lang?": [],
     "/potplayer/update/:language?": [],
-    "/caus/:category?": [],
     "/modian/zhongchou/:category?/:sort?/:status?": [],
     "/macwk/soft/:name": [],
     "/pjsk/news": [],
