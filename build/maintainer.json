@@ -1383,6 +1383,21 @@
     "/cw/today": [
         "TonyRL"
     ],
+    "/cyzone": [
+        "nczitzk"
+    ],
+    "/cyzone/:id?": [
+        "nczitzk"
+    ],
+    "/cyzone/author/:id": [
+        "nczitzk"
+    ],
+    "/cyzone/channel/:id?": [
+        "nczitzk"
+    ],
+    "/cyzone/label/:name": [
+        "nczitzk"
+    ],
     "/cztv/zjxwlb": [
         "yhkang"
     ],
@@ -2462,6 +2477,9 @@
     ],
     "/gov/shenzhen/xxgk/zfxxgj/:caty": [
         "laoxua"
+    ],
+    "/gov/shenzhen/zjj/xxgk/:caty": [
+        "lonn"
     ],
     "/gov/shenzhen/zzb/:caty/:page?": [
         "zlasd"
@@ -6852,8 +6870,6 @@
     "/patchwork.kernel.org/comments/:id": [],
     "/jingdong/zhongchou/:type/:status/:sort": [],
     "/allpoetry/:order?": [],
-    "/cyzone/author/:id": [],
-    "/cyzone/label/:name": [],
     "/gov/province/:name/:category": [],
     "/gov/city/:name/:category": [],
     "/gov/statecouncil/briefing": [],
