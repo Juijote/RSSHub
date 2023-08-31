@@ -888,6 +888,10 @@
     "/bnu/lib/:category?": [
         "TonyRL"
     ],
+    "/boc/whpj/:format?": [
+        "LogicJake",
+        "HenryQW"
+    ],
     "/bookfere/:category": [
         "OdinZhang"
     ],
@@ -1184,6 +1188,9 @@
     ],
     "/cn-healthcare/index": [
         "qnloft"
+    ],
+    "/cna/:id?": [
+        "nczitzk"
     ],
     "/cnbc/rss/:id?": [
         "TonyRL"
@@ -2934,6 +2941,9 @@
     ],
     "/icac/news/:lang?": [
         "linbuxiao, TonyRL"
+    ],
+    "/icbc/whpj/:format?": [
+        "leoleoasd"
     ],
     "/idolypride/news": [
         "Mingxia1"
@@ -6991,7 +7001,6 @@
     "/paidai": [],
     "/paidai/bbs": [],
     "/paidai/news": [],
-    "/boc/whpj/:format?": [],
     "/manhuadb/comics/:id": [],
     "/zfrontier/postlist/:type": [],
     "/zfrontier/board/:boardId": [],
@@ -7463,7 +7472,6 @@
     "/icity/:id": [],
     "/anki/changes": [],
     "/abc/:id?": [],
-    "/cna/:id?": [],
     "/huawei/xinsheng/:caty?/:order?/:keyword?": [],
     "/ow/patch": [],
     "/cktest/app/:ctgroup?/:domain?": [],

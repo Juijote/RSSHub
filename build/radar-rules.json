@@ -3622,6 +3622,20 @@
       }
     ]
   },
+  "boc.cn": {
+    "_name": "中国银行",
+    ".": [
+      {
+        "title": "外汇牌价",
+        "docs": "https://docs.rsshub.app/routes/others#zhong-guo-yin-hang",
+        "source": [
+          "/sourcedb/whpj",
+          "/"
+        ],
+        "target": "/boc/whpj"
+      }
+    ]
+  },
   "bookfere.com": {
     "_name": "书伴",
     ".": [
@@ -4858,6 +4872,19 @@
           "/"
         ],
         "target": "/cn-healthcare/index"
+      }
+    ]
+  },
+  "cna.com.tw": {
+    "_name": "中央通訊社",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#zhong-yang-tong-xun-she",
+        "source": [
+          "/list/:id",
+          "/topic/newstopic/:id"
+        ]
       }
     ]
   },
@@ -11458,6 +11485,19 @@
           "/:lang/press/index.html"
         ],
         "target": "/icac/news/:lang"
+      }
+    ]
+  },
+  "icbc.com.cn": {
+    "_name": "中国工商银行",
+    ".": [
+      {
+        "title": "外汇牌价",
+        "docs": "https://docs.rsshub.app/other#zhong-guo-gong-shang-yin-hang",
+        "source": [
+          "/column/1438058341489590354.html"
+        ],
+        "target": "/icbc/whpj"
       }
     ]
   },
