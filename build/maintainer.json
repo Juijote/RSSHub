@@ -3037,7 +3037,8 @@
         "TonyRL"
     ],
     "/iqiyi/user/video/:uid": [
-        "talengu"
+        "talengu",
+        "JimenezLi"
     ],
     "/iqnew/latest": [
         "nczitzk"
@@ -3099,6 +3100,9 @@
     "/jandan/": [
         "nczitzk",
         "bigfei"
+    ],
+    "/japanpost/track/:reqCode/:locale?": [
+        "tuzi3040"
     ],
     "/javbus/": [
         "MegrezZhu",
@@ -3555,11 +3559,25 @@
     "/literotica/category/:category": [
         "nczitzk"
     ],
-    "/liulinblog/kuaixun": [
-        "Fatpandac"
-    ],
     "/liulinblog/itnews/:channel?": [
-        "Fatpandac"
+        "Fatpandac",
+        "nczitzk"
+    ],
+    "/liulinblog/kuaixun": [
+        "Fatpandac",
+        "nczitzk"
+    ],
+    "/liulinblog/search/:keyword": [
+        "nczitzk"
+    ],
+    "/liulinblog/series/:id": [
+        "nczitzk"
+    ],
+    "/liulinblog/tag/:id": [
+        "nczitzk"
+    ],
+    "/liulinblog/:channel?": [
+        "nczitzk"
     ],
     "/lkong/forum/:id?/:digest?": [
         "nczitzk",
@@ -7118,7 +7136,6 @@
     "/chinadaily/english/:category": [],
     "/leboncoin/ad/:query": [],
     "/dhl/:id": [],
-    "/japanpost/track/:reqCode/:locale?": [],
     "/hanime/video": [],
     "/soul/:id": [],
     "/soul/posts/hot/:pid*": [],

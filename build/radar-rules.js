@@ -6324,6 +6324,17 @@
         source:[ "/:category",
           "/" ],
         target:"/jandan/:category?" } ] },
+  "japanpost.jp":{ _name:"日本郵便",
+    "trackings.post":[ { title:"郵便・荷物の追跡",
+        docs:"https://docs.rsshub.app/routes/other#japanpost-ri-ben-you-bian",
+        source:"/services/srv/search/direct",
+        target:(params, url) => {
+                    const reqCode = new URL(url).searchParams.get('reqCodeNo1').toUpperCase();
+                    const locale = new URL(url).searchParams.get('locale').toLowerCase();
+                    if ((reqCode.search(/^(?:\d{11,12}|[A-Z]{2}\d{9}[A-Z]{2})$/) === 0 && locale === 'ja') || locale === 'en') {
+                        return `/japanpost/track/${reqCode}/${locale}`;
+                    }
+                } } ] },
   "javbus.com":{ _name:"JavBus",
     www:[ { title:"有码 - 首页",
         docs:"https://docs.rsshub.app/routes/multimedia#javbus",
@@ -7639,25 +7650,45 @@
           "/" ],
         target:"/literotica/category/:category" } ] },
   "liulinblog.com":{ _name:"木木博客",
-    ".":[ { title:"每天六十秒（60秒）读懂世界",
-        docs:"https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
-        source:[ "/kuaixun" ],
-        target:"/liulinblog/kuaixun" },
-      { title:"互联网早报",
-        docs:"https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
-        source:[ "/itnews/:channel" ],
-        target:(params) => {
-                    if (params.channel === 'internet') {
-                        return '/liulinblog/itnews/:channel';
-                    }
+    ".":[ { title:"频道",
+        docs:"https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        source:[ "/:channel",
+          "/" ],
+        target:(params, url) => {
+                    url = new URL(url);
+                    const path = url.href.match(/\.com(.*?)/)[1];
+
+                    return `/liulinblog${path === '/' ? '' : path}`;
                 } },
-      { title:"站长圈",
-        docs:"https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
-        source:[ "/itnews/:channel" ],
-        target:(params) => {
-                    if (params.channel === 'seo') {
-                        return '/liulinblog/itnews/:channel';
-                    }
+      { title:"标签",
+        docs:"https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        source:[ "/tag/:id",
+          "/" ],
+        target:"/liulinblog/tag/:id" },
+      { title:"专题",
+        docs:"https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        source:[ "/series/:id",
+          "/" ],
+        target:"/liulinblog/series/:id" },
+      { title:"搜索",
+        docs:"https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        source:[ "/search/:keyword",
+          "/" ],
+        target:"/liulinblog/search/:keyword" },
+      { title:"60秒读懂世界",
+        docs:"https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        source:[ "/kuaixun",
+          "/" ],
+        target:"/liulinblog/kuaixun" },
+      { title:"网络营销",
+        docs:"https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        source:[ "/:channel",
+          "/" ],
+        target:(params, url) => {
+                    url = new URL(url);
+                    const path = url.href.match(/\.com(.*?)/)[1];
+
+                    return `/liulinblog${path === '/' ? '' : path}`;
                 } } ] },
   "lkong.com":{ _name:"龙空",
     ".":[ { title:"分区",
@@ -14695,17 +14726,6 @@
         docs:"https://docs.rsshub.app/routes/university#ha-er-bin-gong-cheng-da-xue",
         source:"/*",
         target:"/heu/gongxue/sx" } ] },
-  "japanpost.jp":{ _name:"日本郵便",
-    "trackings.post":[ { title:"郵便・荷物の追跡",
-        docs:"https://docs.rsshub.app/routes/other#ri-ben-you-bian-you-bian-zhui-ji-サービス",
-        source:"/services/srv/search/direct",
-        target:(params, url) => {
-                    const reqCode = new URL(url).searchParams.get('reqCodeNo1').toUpperCase();
-                    const locale = new URL(url).searchParams.get('locale').toLowerCase();
-                    if ((reqCode.search(/^(?:\d{11,12}|[A-Z]{2}\d{9}[A-Z]{2})$/) === 0 && locale === 'ja') || locale === 'en') {
-                        return `/japanpost/track/${reqCode}/${locale}`;
-                    }
-                } } ] },
   "matters.news":{ _name:"Matters",
     ".":[ { title:"最新排序",
         docs:"https://docs.rsshub.app/routes/new-media#matters",
