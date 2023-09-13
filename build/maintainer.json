@@ -3712,6 +3712,9 @@
     "/magazinelib/latest-magazine/:query?": [
         "NavePnow"
     ],
+    "/mail/imap/:email/:folder*": [
+        "kt286"
+    ],
     "/mangadex/:id/:lang?": [
         "vzz64"
     ],
@@ -6212,6 +6215,15 @@
     "/whoscall/categories/:category?": [
         "nczitzk"
     ],
+    "/whu/cs/:type": [
+        "ttyfly"
+    ],
+    "/whu/gs/:type?": [
+        "Delreyaa"
+    ],
+    "/whu/news/:type*": [
+        "SChen1024"
+    ],
     "/wikinews/latest": [
         "KotoriK"
     ],
@@ -6892,8 +6904,6 @@
     "/kmust/jwc/:type?": [],
     "/kmust/job/careers/:type?": [],
     "/kmust/job/jobfairs": [],
-    "/whu/cs/:type": [],
-    "/whu/news/:type?": [],
     "/jgsu/jwc": [],
     "/dlu/jiaowu/news": [],
     "/dgut/jwc/:type?": [],
@@ -7243,7 +7253,6 @@
     "/sans/summit_archive": [],
     "/latexstudio/home": [],
     "/jskou/:type?": [],
-    "/mail/imap/:email": [],
     "/network360/jobs": [],
     "/zhilian/:city/:keyword": [],
     "/nciae/news": [],
