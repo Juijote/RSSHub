@@ -2430,6 +2430,23 @@
       }
     ]
   },
+  "alternativeto.net": {
+    "_name": "AlternativeTo",
+    "www": [
+      {
+        "title": "Software Alternatives",
+        "docs": "https://docs.rsshub.app/routes/programming#alternativeto-software-alternatives",
+        "source": "/software/:name",
+        "target": "/software/:name"
+      },
+      {
+        "title": "Platform Software",
+        "docs": "https://docs.rsshub.app/routes/programming#alternativeto-platform-software",
+        "source": "/platform/:name",
+        "target": "/platform/:name"
+      }
+    ]
+  },
   "altervista.org": {
     "_name": "Altervista",
     "hyp3rlinx": [
@@ -21664,6 +21681,13 @@
         "target": "/scut/seie/news_center"
       },
       {
+        "title": "机械与汽车工程学院 - 通知公告",
+        "docs": "https://docs.rsshub.app/routes/university#hua-nan-li-gong-da-xue",
+        "source": [
+          "/smae/:category/list.htm"
+        ]
+      },
+      {
         "title": "研究生院通知公告",
         "docs": "https://docs.rsshub.app/routes/university#hua-nan-li-gong-da-xue",
         "source": [
@@ -23568,6 +23592,19 @@
           "/"
         ],
         "target": "/sputniknews/:category/:language"
+      }
+    ]
+  },
+  "sqmc.edu.cn": {
+    "_name": "新乡医学院三全学院",
+    ".": [
+      {
+        "title": "官网信息",
+        "docs": "https://docs.rsshub.app/university.html#xin-xiang-yi-xue-yuan-san-quan-xue-yuan",
+        "source": [
+          "/:category/list.htm"
+        ],
+        "target": "/sqmc/www/:category?"
       }
     ]
   },
