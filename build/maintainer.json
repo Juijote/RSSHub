@@ -3578,6 +3578,9 @@
     "/leiphone/leiphone/newsflash": [
         "vlcheng"
     ],
+    "/lemmy/:community/:sort?": [
+        "wb14123"
+    ],
     "/lever/:domain": [
         "tsarlewey"
     ],
@@ -6423,6 +6426,9 @@
     ],
     "/xmnn/epaper/:id?": [
         "nczitzk"
+    ],
+    "/xmut/jwc/:type/:method": [
+        "icecliffs"
     ],
     "/xsijishe/forum/:fid": [
         "akynazh"
