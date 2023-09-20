@@ -15517,6 +15517,18 @@
       }
     ]
   },
+  "kamen-rider-official.com": {
+    "_name": "仮面ライダ",
+    ".": [
+      {
+        "title": "最新情報",
+        "docs": "https://docs.rsshub.app/routes/new-media#fan-mian-%E3%83%A9%E3%82%A4%E3%83%80-zui-xin-qing-bao",
+        "source": [
+          "/news_articles"
+        ]
+      }
+    ]
+  },
   "kantarworldpanel.com": {
     "_name": "Kantar Worldpanel",
     ".": [
@@ -27673,6 +27685,25 @@
         "title": "专辑",
         "docs": "https://docs.rsshub.app/routes/multimedia#xi-ma-la-ya",
         "source": "/:type/:id"
+      }
+    ]
+  },
+  "xinpianchang.com": {
+    "_name": "新片场",
+    ".": [
+      {
+        "title": "发现",
+        "docs": "https://docs.rsshub.app/routes/new-media#xin-pian-chang-fa-xian",
+        "source": [
+          "/discover/:params"
+        ]
+      },
+      {
+        "title": "排行榜",
+        "docs": "https://docs.rsshub.app/routes/new-media#xin-pian-chang-pai-hang-bang",
+        "source": [
+          "/rank/:params"
+        ]
       }
     ]
   },
