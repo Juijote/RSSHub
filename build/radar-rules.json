@@ -2607,14 +2607,6 @@
     "_name": "Apple",
     "apps": [
       {
-        "title": "应用更新",
-        "docs": "https://docs.rsshub.app/routes/program-update#app-store-mac-app-store",
-        "source": [
-          "/:contry/app/:id"
-        ],
-        "target": "/appstore/update/:country/:id"
-      },
-      {
         "title": "价格更新",
         "docs": "https://docs.rsshub.app/routes/program-update#app-store-mac-app-store",
         "source": [
@@ -18776,6 +18768,36 @@
           "/nhkworld/:lang/news/"
         ],
         "target": "/nhk/news/:lang"
+      }
+    ]
+  },
+  "niaogebiji.com": {
+    "_name": "鸟哥笔记",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/new-media#niao-ge-bi-ji",
+        "source": [
+          "/"
+        ],
+        "target": "/niaogebiji"
+      },
+      {
+        "title": "今日事",
+        "docs": "https://docs.rsshub.app/new-media#niao-ge-bi-ji",
+        "source": [
+          "/",
+          "/bulletin"
+        ],
+        "target": "/niaogebiji"
+      },
+      {
+        "title": "分类目录",
+        "docs": "https://docs.rsshub.app/new-media#niao-ge-bi-ji",
+        "source": [
+          "/cat/:cat"
+        ],
+        "target": "/niaogebiji/cat/:cat"
       }
     ]
   },
